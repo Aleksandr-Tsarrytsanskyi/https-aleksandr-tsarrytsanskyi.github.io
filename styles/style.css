@@ -3758,6 +3758,16 @@ footer .contact a {
   }
 }
 
+@media screen and (max-width: 380px) {
+  #contactUS p {
+    display: none;
+  }
+
+  #contactUS .title {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 340px) {
   #contactUS .title {
   margin-bottom: 10px;
