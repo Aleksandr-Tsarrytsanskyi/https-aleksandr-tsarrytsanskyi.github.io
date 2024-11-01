@@ -3031,7 +3031,7 @@ footer .contact a {
 }
 @media screen and (max-width: 720px) {
   footer {
-    grid-template-columns: minmax(160px, 300px) minmax(160px, 300px);
+    grid-template-columns: minmax(159px, 300px) minmax(160px, 300px);
   }
 }
 
