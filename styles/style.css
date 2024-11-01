@@ -625,7 +625,7 @@ header .contactus:hover {
   height: 500px;
 }
 
-.events .cell.cell:nth-child(2) {
+.events .none_border_events {
   background: url("../image/Line.png") no-repeat center;
   width: 1px;
   height: 265px;
