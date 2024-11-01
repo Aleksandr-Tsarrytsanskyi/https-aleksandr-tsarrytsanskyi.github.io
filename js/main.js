@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded" ,init)
 function init() {
    const contactForn = document.querySelector("#send_contacts");
    const contactus = document.querySelector(".contactus");
-   const showContactForm = document.querySelector("#fixed_form");
+   const showContactForm = document.querySelector("#bg_contact_form");
    const close_form = document.querySelector(".close_form");
    const main_icon = document.querySelector(".main_icon");
    const shooBurgerMenu = document.querySelector("#logo .cell:nth-child(2)");
