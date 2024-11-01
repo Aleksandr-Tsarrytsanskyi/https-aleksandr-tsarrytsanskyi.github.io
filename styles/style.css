@@ -3770,7 +3770,8 @@ footer .contact a {
 }
 
 header .contactus {
-  width: 112px !important;
+ margin-left: 5px;
+ margin-right: 5px;
   font-size: 74% !important;
 }
 
