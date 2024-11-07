@@ -2861,6 +2861,10 @@ footer .contact a {
     grid-template-columns: 200px 200px;
   }
 
+  #our_products .left {
+    height: 270px;
+  }
+
   #slider p {
     font-size: 80%;
   }
