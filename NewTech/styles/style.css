@@ -2303,10 +2303,13 @@ footer .contact a {
   display: grid;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 20px 20px;
-  grid-auto-rows: 200px;
   justify-content: center;
   margin-top: -40px;
 }
+#products_grid .cell {
+  height: 200px;
+}
+
 .bg_products {
   color: #55acee;
 }
@@ -2318,6 +2321,7 @@ footer .contact a {
 }
 
 #products_grid .cell:hover {
+  height: 199px;
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #55acee;
