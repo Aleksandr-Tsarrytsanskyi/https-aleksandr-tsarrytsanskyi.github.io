@@ -1,0 +1,33 @@
+@media screen and (max-width: 1250px)  {
+    .grid_support {
+        grid-template-columns: 700px !important;
+        margin-left: 0 !important;
+    }
+
+    #support .left {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .grid_support {
+        grid-template-columns: 320px !important;
+    }
+
+    #support .left {
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .grid_support {
+        grid-template-columns: 300px !important;
+    }
+
+    #support .left {
+        width: 300px;
+    } 
+
+    
+}
