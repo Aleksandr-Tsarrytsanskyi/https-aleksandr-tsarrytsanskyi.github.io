@@ -2704,6 +2704,12 @@ footer .contact a {
   }
 }
 
+@media screen and (max-width: 981px) {
+  #bg_main {
+    height: 1445px !important;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   #slider_events {
     grid-template-columns: 700px;
@@ -2730,7 +2736,7 @@ footer .contact a {
   }
 
   #bg_main {
-    height: 1360px;
+    height: 1130px;
   }
 
   .slider2 {
