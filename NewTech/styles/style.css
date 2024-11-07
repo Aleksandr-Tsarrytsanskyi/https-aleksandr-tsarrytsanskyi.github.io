@@ -664,6 +664,10 @@ header .contactus:hover {
   margin-top: 70px;
 }
 
+.events .m_top {
+  margin-top: 124px;
+}
+
 .events .m_top2 {
   margin-top: -30px;
   position: relative;
@@ -2689,6 +2693,13 @@ footer .contact a {
   }
 }
 
+@media screen and (max-width: 1010px) {
+  .events .none_border_events {
+    width: 0;
+    height: 0;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   #slider_events {
     grid-template-columns: 700px;
@@ -3353,11 +3364,15 @@ footer .contact a {
   }
 
   #bg_main {
-    height: 1300px !important;
+    height: 1440px !important;
   }
 
   .slider2 {
     width: 400px !important;
+  }
+
+  .events .none_border_events {
+    display: none;
   }
 
   #slider_events {
@@ -3370,7 +3385,11 @@ footer .contact a {
   }
 
   .slider2 {
-    height: 600px;
+    height: 740px;
+  }
+
+  .bg_events {
+    height: 580px;
   }
 
   .bg_events .show_more {
