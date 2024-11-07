@@ -2708,10 +2708,12 @@ footer .contact a {
   .bg_events {
     width: 700px;
     padding-bottom: 30px !important;
+    height: 590px;
   }
 
   .slider2 {
     width: 700px !important;
+    height: 590px !important;
   }
 
   .bg_events .show_more {
@@ -2724,7 +2726,7 @@ footer .contact a {
   }
 
   #bg_main {
-    height: 1290px;
+    height: 1360px;
   }
 
   .slider2 {
@@ -3385,7 +3387,7 @@ footer .contact a {
   }
 
   .slider2 {
-    height: 740px;
+    height: 735px !important;
   }
 
   .bg_events {
