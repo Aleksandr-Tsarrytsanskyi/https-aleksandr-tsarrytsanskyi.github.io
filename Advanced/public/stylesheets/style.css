@@ -52,6 +52,10 @@ header .bg_header{
   margin-top: 10px;
 }
 
+#header_wrapper .grid .cell:nth-child(2) a:hover {
+  text-decoration: none;
+}
+
 .wripper {
   max-width: 1290px;
   margin: 0 auto;
