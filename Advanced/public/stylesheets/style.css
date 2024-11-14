@@ -242,20 +242,21 @@ a {
 
 .title_wripper .content {
   display: grid;
-  grid-template-columns: 494px;
+  grid-template-columns: 626px;
 }
 
 .title_wripper .content h1 {
   color: #fff;
   font-family: Montserrat-ExtraBold;
-  font-size: 32px;
+  font-size: 48px;
+  line-height: 70px;
   margin: 0;
 }
 
 .title_wripper .content p {
   color: #cecfd0;
   font-family: Montserrat-Medium;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 30px;
 }
 
@@ -265,7 +266,7 @@ a {
   text-decoration: none;
   text-align: center;
   line-height: 48px;
-  font-size: 14px;
+  font-size: 16px;
   display: block;
   border-radius: 25px;
   background-color: #E6230F;
