@@ -38,6 +38,10 @@ font-size: 14px;
   font-weight: normal;
 }
 
+
+.clear {
+  clear: both;
+}
 header {
   margin-top: 15px;
 }
@@ -188,7 +192,7 @@ a {
 
 #topmenu ul li {
   float: left;
-  margin-right: 74px;
+  margin-right: 80px;
 }
 
 #topmenu ul li a {
@@ -225,4 +229,58 @@ a {
   background-color: #ce1905;
   width: 210px;
   height: 55px;
+}
+
+ .title_wripper {
+  background: url("../images/image.png") no-repeat center;
+  height: 513px;
+}
+
+.title_wripper .content {
+  display: grid;
+  grid-template-columns: 494px;
+}
+
+.title_wripper .content h1 {
+  color: #fff;
+  font-family: Montserrat-ExtraBold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.title_wripper .content p {
+  color: #cecfd0;
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.title_wripper .content a {
+  font-family: Montserrat_bold;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 48px;
+  font-size: 14px;
+  display: block;
+  border-radius: 25px;
+  background-color: #E6230F;
+  width: 210px;
+  height: 48px;
+}
+
+.title_wripper .content a:hover {
+  background-color: #D61905;
+}
+
+.title_wripper .position {
+  max-width: 1290px;
+  margin: 0px  auto;
+  padding-top: 120px;
+  line-height: 45px;
+}
+
+.bg_title {
+  background: url("../images/Rectangle17.png") no-repeat left;
+  height: 512px;
 }
