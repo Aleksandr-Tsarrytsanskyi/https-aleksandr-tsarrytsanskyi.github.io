@@ -237,7 +237,7 @@ a {
 
  .title_wripper {
   background: url("../images/image.png") no-repeat center;
-  height: 513px;
+  height: 720px;
 }
 
 .title_wripper .content {
@@ -280,7 +280,7 @@ a {
 .title_wripper .position {
   max-width: 1290px;
   margin: 0px  auto;
-  padding-top: 120px;
+  padding-top: 180px;
   line-height: 45px;
 }
 
