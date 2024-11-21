@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Montserrat_Regular;
+  src: url("../fonts/Montserrat-Regular.woff");
+  font-display: swap;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../fonts/Montserrat-Medium.woff");
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Montserrat-Semi-Bold;
+  src: url("../fonts/Montserrat-SemiBold.woff");
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Montserrat_Bold;
+  src: url("../fonts/Montserrat-Bold.woff");
+  font-display: swap;
+  font-weight: normal;
+}
