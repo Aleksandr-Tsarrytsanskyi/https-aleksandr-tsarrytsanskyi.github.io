@@ -49,6 +49,7 @@ header .wrapper {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   justify-items: center;
+  justify-items: stretch;
 }
 
 header .wrapper .grid {
@@ -65,7 +66,6 @@ header .wrapper .grid {
   position: relative;
   width: 1191px;
   margin: auto;
- 
 }
 
 #main .top_slider .h1 h1 {
@@ -120,6 +120,19 @@ header .wrapper ul li {
   float: left;
   margin-right: 20px;
   backdrop-filter: blur(6px);
+}
+
+/* div.eapps-widget a {
+  display: none !important;
+} */
+
+/* .gGvuTN {
+  display: none !important;
+} */
+
+div.eapps-widget {
+  margin-top: 60px;
+  margin-right: 80px;
 }
 
 header .wrapper ul li:hover {
@@ -270,11 +283,11 @@ z-index: 300;
   margin-top: 80px;
 }
 
-#zip_code {
+.zip_code {
   margin-top: 50px;
 }
 
-#zip_code label {
+.zip_code label {
   font-family: Montserrat_Regular;
 font-size: 16px;
 font-weight: 400;
@@ -283,7 +296,7 @@ color: #353535;
 
 }
 
-#zip_code input[type="text"] {
+.zip_code input[type="text"] {
   background: #EFF6FE;
   border: none;
   border-radius: 5px;
@@ -297,7 +310,7 @@ color: #353535;
   margin-top: 10px;
 }
 
-#zip_code .button {
+.zip_code .button {
   width: 323px;
   height: 60px;
   border-radius: 3px;
@@ -311,7 +324,7 @@ color: #353535;
 
 }
 
-#zip_code button {
+.zip_code button {
   background: url("../images/arrow_button_right.png") no-repeat right;
   padding-right: 15px;
   color: #000000;

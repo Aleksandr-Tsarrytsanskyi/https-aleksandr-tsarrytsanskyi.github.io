@@ -1,0 +1,948 @@
+#header {background-color: #353535;
+    height: 250px;
+    position: relative;
+    z-index: 200;
+}
+
+header {
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+
+#pagination {
+    background-color: #EFF6FE;
+    height: 46px;
+    position: relative;
+    z-index: 200;
+}
+
+
+#pagination ul {
+    margin: 0;
+    padding: 5px 0 0;
+    list-style: none;
+}
+
+#pagination ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+
+#pagination .col {
+    opacity: 60%;
+}
+
+#pagination ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #242424;
+    text-decoration: none;
+    font-family: Montserrat_Regular;
+}
+
+#pagination ul li a:hover {
+    text-decoration: underline;
+}
+
+#pagination ul li:first-child {
+    background: url("../images/arrow_paginashion.png") no-repeat  top 70% right;
+    padding-right: 20px;
+}
+
+#pagination .width {
+    max-width: 1205px;
+    margin: auto;
+}
+
+#page2 {
+    max-width:  1205px;
+    margin: auto;
+}
+
+#tv_mounting {
+    display: grid;
+    grid-template-columns: 491px 886px;
+    margin-top: 10px;
+    grid-gap: 0px 10px;
+}
+
+#tv_mounting .cell:nth-child(2) img {
+    margin-top: -261px;
+}
+
+#tv_mounting h1 {
+    font-family: Montserrat_Bold;
+    font-size: 60px;
+    font-weight: normal;
+    color: #353535;
+}
+
+#tv_mounting p {
+    font-family: Montserrat_Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #242424;
+}
+
+#tv_mounting div.eapps-widget {
+    margin-left: -80px;
+}
+
+#tv_mounting  .eapps-widget-toolbar {
+    display: none;
+}
+
+#includes {
+    display: grid;
+    grid-template-columns: 185px 286px 185px 185px 286px;
+    grid-gap: 0px 20px;
+    margin-top: 30px;
+}
+
+#includes h2 {
+    font-family: Montserrat_Regular;
+    font-size: 26px;
+    font-weight: 400;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin-bottom: 30px;
+}
+
+#includes .cell {
+    text-align: left;
+} 
+
+#includes figure {
+    margin: 0;
+}
+
+#includes figcaption {
+    font-family: Montserrat_Regular;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#bg_warning {
+    background-color: #FDEAEA;
+    border-left: 1px solid #EB2A2A;
+    border-radius: 6px;
+    width: 1205px;
+    height: 114px;
+}
+
+#warning {
+    display: grid;
+    grid-template-columns: 52px 1070px;
+    grid-gap: 0px 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+#warning img {
+    margin-top: 6px;
+}
+
+#warning p {
+    font-family: Montserrat_Regular;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+#tv_installation {
+    margin-bottom: 170px;
+    margin-top: 50px;
+}
+
+#tv_installation p {
+    color: #353535;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#tv_installation .tv_installation {
+    display: grid;
+    grid-template-columns: 898px 290px;
+    grid-gap: 0px 20px;
+}
+
+#tv_installation .size .cell, #tv_installation .bracket .cell, #tv_installation .type .cell {
+    height: 146px;
+    border: 1px solid #C6DFFB;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#tv_installation .need .cell, #tv_installation .wire .cell, #tv_installation .kite .cell{
+    height: 146px;
+    border: 1px solid #C6DFFB;
+    text-align: center;
+    padding-top: 10px;
+}
+#tv_installation .size, #tv_installation .bracket, #tv_installation .type {
+    display: grid;
+    grid-template-columns: 155px 155px 155px 155px;
+    background-color: #EFF6FE;
+    margin-bottom: 20px;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    height: 248px;
+    padding-left: 30px;
+    grid-gap: 0px 20px;
+}
+
+#tv_installation .size p, #tv_installation .bracket p, #tv_installation .type p {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#tv_installation .need, #tv_installation .wire, #tv_installation .kite {
+    display: grid;
+    grid-template-columns: 155px 155px;
+    background-color: #EFF6FE;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 248px;
+    padding-left: 30px;
+    grid-gap: 0px 20px;
+}
+
+#tv_installation .need p, #tv_installation .wire p, #tv_installation .kite p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#tv_installation .quantity label {
+    font-family: Montserrat_Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #242424;
+    opacity: 70%;
+    margin-right: 36px;
+    margin-left: 30px;
+}
+
+#tv_installation  .format {
+    font-family: Montserrat_Regular;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#tv_installation .price {
+    font-family: Montserrat_Bold;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#tv_installation .details {
+    display: grid;
+    grid-template-columns: 388px 490px;
+    grid-gap: 0px 20px;
+    
+}
+
+
+
+#tv_installation .details p {
+    margin: 0 0 30px;
+}
+
+#tv_installation .details  .upload_picture{
+    border: 1px dashed #20C84F4D;
+    height: 140px;
+}
+
+#tv_installation .details  .upload_picture:hover {
+    border: 1px dashed #20C84F;
+
+
+
+}
+
+.upload_picture {
+    text-align: center;
+}
+
+#tv_installation .quantity {
+    background-color: #EFF6FE;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    padding-left: 30px;
+    height: 110px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#tv_installation .size input[type="radio"], #tv_installation .bracket input[type="radio"], #tv_installation .type input[type="radio"], #tv_installation .need input[type="radio"], #tv_installation .wire input[type="radio"], #tv_installation .kite input[type="radio"] {
+    margin: -23px 14px 10px 116px;
+    position: absolute;
+    opacity: 0;
+    z-index: 400;
+}
+
+.Booking_Summary h3{
+    font-family: Montserrat_Regular;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Booking_Summary .tv_name {
+    font-family: Montserrat_Bold !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.Booking_Summary .text , .Booking_Summary .prices{
+    font-family: Montserrat_Regular !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
+.Booking_Summary .Estimated h4 {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 9px 0 0;
+}
+
+.Booking_Summary .full_price {
+    font-family: Montserrat_Regular;
+    color: #353535;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Booking_Summary .btn {
+    background-color: #20C84F;
+    box-shadow: 0px 6px 10px 0px #35353529;
+    box-shadow: 0px 2px 0px 0px #008B12;    
+    width: 246px;
+    height: 44px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Booking_Summary .btn:hover {
+    background-color: #2081F0;
+
+box-shadow: 0px 2px 0px 0px #008B12;
+
+box-shadow: 0px 2px 0px 0px #185498;
+
+}
+
+.Booking_Summary .btn button {
+    background: url("../images/active_aarow.png") no-repeat right 55%;
+    border: none;
+    color: #fff;
+    text-shadow: 1px 1px 2px #0000004D;
+    font-size: 15px;
+    font-family: Montserrat_Bold;
+    font-weight: 700;
+    line-height: 42px;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+
+.Booking_Summary .back {
+    background-color: #20C84F;
+    box-shadow: 0px 2px 0px 0px #008B12;
+    width: 50px;
+    height: 44px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Booking_Summary .back:hover {
+    background-color: #2081F0;
+    box-shadow: 0px 2px 0px 0px #2081F0;
+}
+
+.Booking_Summary .back img {
+    margin-top: 16px;
+}
+
+#tv_installation .details input[type="text"] {
+    width: 368px;
+    height: 137px;
+    border-bottom: 1px solid #9CC6F7;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    background-color: #EFF6FE;
+    outline: none;
+    padding-left: 20px;
+}
+
+#tv_installation input[type="radio"] {
+    display: block;
+}
+
+
+#tv_installation input[type="radio"]:checked + .option_label::after {
+    transform: scale(1);
+}
+#tv_installation .option_label {
+    display: inline-flex;
+    position: absolute;
+    margin: -31px 0px 0px 31px;
+}
+
+#tv_installation .option_label::before {
+    content: "";
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #C6DFFB
+}
+
+#tv_installation .option_label::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 8px;
+    height: 8px;
+    background-color: #2081F0;
+    border-radius: 50%;
+    transform: scale(0);
+}
+
+#tv_installation .quantity input[type="radio"] {
+    display: inline;
+    position: absolute;
+    z-index: 400;
+    margin: 10px 10px 8px 2px;
+    opacity: 0;
+}
+
+#tv_installation .quantity .option_label {
+   margin: 2px 0px 0px -6px;
+}
+
+#tv_installation .quantity p {
+    margin-bottom: 10px;
+}
+
+.Booking_Summary .tv_size, .Booking_Summary .your_bracket, .Booking_Summary .Wall_Type, .Booking_Summary .Concealment, .Booking_Summary .Wire_concealment_type, .Booking_Summary .need_kit {
+    display:  grid;
+    grid-template-columns: 23px 79px 104px 51px;
+    border-bottom: 1px solid #BCD9FB;
+    margin-bottom: 10px;
+}
+
+.Booking_Summary  img {
+    margin-top: 12px;
+}
+
+.Booking_Summary {
+    background-color: #EFF6FE;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+}
+
+.Booking_Summary .warning {
+    display: grid;
+     grid-template-columns: 16px 203px;
+     grid-gap: 0px 10px;
+     background-color:  #FDEAEA;
+     border-left: 1px solid #EB2A2A;
+     padding-left: 10px;
+     margin-bottom: 5px;
+}
+
+.Booking_Summary .warning img {
+    margin-top: 4px;
+}
+
+.Booking_Summary .warning p {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    font-family: Montserrat_Regular !important;
+    margin: 3px 0 0;
+}
+
+.Booking_Summary .Estimated {
+    display: grid;
+    grid-template-columns: 194px 49px;
+    margin-bottom: 20px;
+}
+
+.Booking_Summary .bg_Estimated {
+    background-color: #fff;
+    width: 270px;
+    position: absolute;
+    padding: 20px;
+    margin-left: -22px;
+    z-index: 200;
+    margin-top: 2px;
+    height: 188px;
+}
+
+
+#tv_installation .details .file_item {
+    position: relative;
+}
+#tv_installation .details .file_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+#tv_installation .details .file_button {
+    display: inline-flex;
+   background: url("../images/add_img.png") no-repeat center;
+   width: 38px;
+   height: 39px;
+   border: none;
+   margin-top: 40px;
+}
+
+#tv_installation .file_preview {
+    display: inline-block;
+    max-width: 200px;
+}
+
+#tv_installation .file_preview img {
+    max-width: 100%;
+}
+
+#tv_installation .upload_picture label {
+    margin-top: -40px;
+    font-family: Montserrat_Regular;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#tv_installation .upload_picture .pos {
+    margin-top: -40px;
+}
+
+#Wallhanging {
+    width: 1205px;
+    margin: auto;
+}
+
+#Wallhanging h1 {
+    font-family: Montserrat_Bold;
+    font-size: 60px;
+    font-weight: 600;
+    color: #353535;
+    margin-bottom: 10px;
+}
+
+#Wallhanging .col {
+    font-size: 26px;
+}
+
+#Wallhanging p {
+    font-family: Montserrat_Regular;
+    color: #242424;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#Wallhanging .grid {
+    display: grid;
+    grid-template-columns: 491px 886px;
+    margin-top: 10px;
+    grid-gap: 0px 10px;
+}
+
+#Wallhanging .grid .cell:nth-child(2) img {
+    margin-top: -261px;
+} 
+
+.content {
+    max-width: 1205px;
+    margin: auto;
+}
+
+#professional_hanging {
+    display: grid;
+    grid-template-columns: 592px 592px;
+    grid-gap: 0px 20px;
+    margin-top: 60px;
+}
+
+#professional_hanging h2 {
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+#professional_hanging p  {
+    font-size: 17px;
+}
+
+#professional_hanging h2, #professional_hanging p {
+    color: #242424;
+    font-family: Montserrat_Regular;
+    font-weight: 400;
+}
+
+#professional_hanging .cell {
+    padding: 0px 20px; 
+    height: 240px;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+}
+
+.explore {
+    background-color:  #EFF6FE;
+    border: 1px solid #C6DFFB;
+    padding-left: 30px;
+    height: 332px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.explore .grid {
+    display: grid;
+    grid-template-columns: 271px 271px 271px 271px;
+    grid-gap: 0px 20px;
+}
+
+.explore .cell {
+    height: 216px;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px -12px #2081F00A;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.explore h3{
+    font-family: Montserrat_Regular;
+    font-size: 26px;
+    font-weight: 400;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.explore figure {
+    margin: 0;
+}
+
+.explore figcaption  {
+    font-family: Montserrat_Regular;
+    color: #353535;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.explore p {
+    font-family: Montserrat_Regular;
+    color: #353535;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.needs {
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding-left: 35px;
+    height: 284px;
+    margin-top: 70px;
+}
+
+.needs .grid {
+    display: grid;
+    grid-template-columns: 209px 209px 209px 209px 209px;
+    grid-gap: 0px 20px;
+}
+
+.needs .grid .cell {
+    background-color: #EFF6FE;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 104px;
+    padding-top: 15px;
+}
+
+.needs h3, .needs p {
+    font-family: Montserrat_Regular;
+    font-weight: 400;
+    color: #242424;
+}
+
+.needs h3 {
+    font-size: 26px;
+}
+
+.needs p {
+    font-size: 16px;
+}
+
+.needs .col {
+font-size: 14px;
+margin-top: 40px;
+}
+
+.needs .card {
+    display: grid;
+    grid-template-columns: 64px 88px;
+    grid-gap: 0px 20px;
+}
+
+.needs .card  .cell {
+    border: none;
+    background: none;
+}
+
+.needs .text {
+    margin-top: 15px;
+}
+
+#project .title {
+    background: linear-gradient(180deg, #2081F0 0%, #20C84F 100%);
+    height: 43px;
+    width: 795px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+margin-top: 60px;
+}
+
+#project .title h4 {
+    font-family: Montserrat_Regular;
+    font-weight: 400;
+    color: #fff;
+    font-size: 33px;
+    text-align: center;
+}
+
+#project p {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#project label {
+    font-family: Montserrat-Medium;
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+#project {
+    display: grid;
+    grid-template-columns: 898px 286px;
+    grid-gap: 0px 20px;
+    margin-bottom: 300px;
+}
+
+#project .installation, #project .items, #project .ladder, #project .made {
+    background: #EFF6FE;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+#project input[type="radio"]:checked + .option_label::after {
+    transform: scale(1);
+}
+#project .option_label {
+    display: inline-flex;
+    position: absolute;
+    margin: 3px 0px 0px -1px;
+}
+
+#project .option_label::before {
+    content: "";
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #C6DFFB
+}
+
+#project .option_label::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 8px;
+    height: 8px;
+    background-color: #2081F0;
+    border-radius: 50%;
+    transform: scale(0);
+}
+#project input[type="radio"] {
+display: inline;
+position: absolute;
+z-index: 400;
+margin: 11px 10px 8px 7px;
+opacity: 0;
+}
+
+#project .Booking_Summary .tv_name {
+    font-family: Montserrat_Regular !important;   
+    font-weight: 400 !important;
+}
+
+#project .Booking_Summary .tv_size, .Booking_Summary .your_bracket, .Booking_Summary .Wall_Type, .Booking_Summary .Concealment, .Booking_Summary .Wire_concealment_type, .Booking_Summary .need_kit {
+    grid-template-columns: 23px 98px 78px 51px;
+}
+
+#project .add_photos {
+    border-radius: 5px;
+    border: 1px solid #C6DFFB;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+#project .add_photos p {
+    opacity: 70%;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+#project .add_photos .grid {
+    display: grid;
+    grid-template-columns: 204px 604px;
+    grid-gap: 0px 20px;
+}
+
+#project  .upload_picture {
+    border: 1px dashed #20C84F4D;
+    height: 140px;
+}
+
+#project  .upload_picture:hover {
+    border: 1px dashed #20C84F;
+
+
+
+}
+
+#project .Booking_Summary {
+    margin-top: 143px;
+}
+
+#project .Booking_Summary .back {
+    background-color: #353535;
+    border: none;
+    opacity: 60%;
+    box-shadow: 0px 6px 10px 0px #35353529;
+box-shadow: 0px 2px 0px 0px #030303;
+cursor: auto;
+
+}
+
+#project .message input{
+    width: 878px;
+    height: 72px;
+    background: #EFF6FE;
+    border-bottom: 1px solid #9CC6F7;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px -2px #00000017 inset;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+
+}
+
+#project .Booking_Summary .back img {
+    margin-top: 7px;
+}
+
+#project .add_photos .file_item {
+    position: relative;
+}
+#project .add_photos .file_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+#project .add_photos .file_button {
+    display: inline-flex;
+   background: url("../images/add_img.png") no-repeat center;
+   width: 38px;
+   height: 39px;
+   border: none;
+   margin-top: 40px;
+}
+
+#project .file_preview {
+    display: inline-block;
+    max-width: 200px;
+}
+
+#project .file_preview img {
+    max-width: 100%;
+}
+
+#project .add_photos .pos {
+    margin-top: -40px;
+}
+
+#project input[type="radio"]:hover :checked {
+    opacity: 60%;
+} 
+
+#tv_installation .size .cell, #tv_installation .bracket .cell, #tv_installation .type .cell, #tv_installation .need .cell, #tv_installation .wire .cell, #tv_installation .kite .cell {
+    opacity: 60%;
+}
+
+#tv_installation .size .cell:hover, #tv_installation .bracket .cell:hover, #tv_installation .type .cell:hover, #tv_installation .need .cell:hover, #tv_installation .wire .cell:hover, #tv_installation .kite .cell:hover {
+    opacity: 100%;
+}
+
+.installed_active {
+    opacity: 100% !important;
+}
+
+#Wallhanging div.eapps-widget {
+    margin-right: 176px;
+}
+

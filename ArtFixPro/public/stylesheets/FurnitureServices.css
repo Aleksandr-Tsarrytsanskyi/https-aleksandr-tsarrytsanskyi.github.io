@@ -1,0 +1,393 @@
+#assembly_services h1 {
+    font-family: Montserrat_Bold;
+    font-size: 60px;
+    font-weight: normal;
+    color: #353535;
+}
+
+#assembly_services p {
+    font-family: Montserrat_Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #242424;
+}
+
+#assembly_services {
+    display: grid;
+        grid-template-columns: 491px 886px;
+        margin-top: 10px;
+        grid-gap: 0px 10px;
+}
+
+#assembly_services div.eapps-widget {
+    margin-right: 180px;
+}
+
+#assembly_services .cell:nth-child(2) img {
+    margin-top: -261px;
+}
+
+.assembly_services_width {
+    max-width: 1205px;
+    margin: auto;
+}
+
+#pasge4 {
+    max-width: 1205px;
+    margin: auto;
+}
+#pasge4 .explore .cell {
+    height: 285px;
+}
+
+#pasge4 .explore {
+    height: 401px;
+}
+
+#pasge4 .explore .cell p {
+    line-height: 23px;
+}
+
+#Hands {
+    margin-top: 60px;
+}
+
+#Hands h2 {
+    font-size: 26px;
+}
+
+#Hands p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#Hands h2, #Hands p {
+    color: #242424;
+    font-family: Montserrat_Regular;
+    font-weight: 400;
+}
+
+#Hands .grid {
+    display: grid;
+    grid-template-columns: 128px 996px;
+    grid-gap: 0px 20px;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 60px;
+}
+
+#Hands .grid p {
+    margin-top: 10px;
+}
+
+#Hands .grid h3 {
+    font-family: Montserrat_Bold;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#pasge4 .needs {
+    height: 328px;
+}
+
+#handyman p{
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 40px 0px;
+}
+
+#handyman span {
+    color: #fff;
+    background: linear-gradient(93.72deg, #2081F0 1.13%, #20C84F 125.36%);
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+#handyman h4 {
+    color: #242424;
+    font-family: Montserrat_Regular;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#handyman .Questions {
+    background: #EFF6FE;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+#handyman .Questions div {
+    background-color: #fff;
+    box-shadow: 0px 6px 12px -12px #2081F00A;
+    width: 1124px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+#handyman .Questions a {
+    color: #353535;
+    font-family: Montserrat-Medium;
+    background: url("../images/tabs.png") no-repeat right;
+    display: block;
+    width: 1105px;
+    line-height: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+#handyman .box {
+    display: none;
+}
+
+.tabs {
+    display: block !important;
+    padding-bottom: 20px;
+}
+
+#handyman .box {
+    margin: -10px 0px 0px 0px;
+    font-family: Montserrat_Regular;
+    color: #353535;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+#fields {
+    margin-top: 60px;
+    margin-bottom: 300px;
+}
+
+#fields .left {
+    float: left;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#fields .bg {
+    background: #EFF6FE;
+    border: 1px solid #C6DFFB;
+    border-radius: 5px;
+    height: 641px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+
+}
+
+#fields .grid{
+    display: grid;
+    grid-template-columns: 898px 286px;
+    grid-gap: 0px 20px;
+}
+
+#fields h4 {
+    font-family: Montserrat_Regular;
+    font-size: 26px;
+    font-weight: 400;
+    color: #242424;
+}
+
+#fields .bg p {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    color: #353535;
+    font-weight: 500;
+}
+
+#fields label {
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#fields  input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+#fields  input[type="number"] {
+    width: 142px;
+    height: 51px;
+    background: #EFF6FE;
+    border-bottom: 1px solid #9CC6F7;
+    box-shadow: 2px 2px 6px -2px #00000017 inset;
+    padding-left: 20px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   outline: none;
+
+
+}
+
+#fields   .Booking_Summary .tv_name {
+    font-family: Montserrat_Regular !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+#fields .need_assembly {
+    display: grid;
+    grid-template-columns: 23px 98px 78px 51px;
+}
+
+#fields .kind {
+    display: grid;
+    grid-template-columns: 15px 88px 119px;
+    grid-gap: 0px 10px;
+}
+
+
+#fields .kind .product_kind {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Montserrat-Medium;
+}
+
+#fields .Booking_Summary .tv_size, #fields .Booking_Summary .your_bracket, #fields .Booking_Summary .Wall_Type, #fields .Booking_Summary .Concealment, #fields .Booking_Summary .Wire_concealment_type, #fields .Booking_Summary .need_kit {
+    grid-template-columns: 55px 79px;
+    grid-gap: 0px 27px;
+    width: 140px;
+}
+
+#fields .prices {
+    margin: 13px 0px 0px 10px;
+    font-family: Montserrat_Bold !important;
+    font-weight: 600 !important;
+    font-size: 12px;
+}
+
+#fields  .Booking_Summary {
+    padding-left: 10px;
+}
+
+#fields .font {
+    
+  font-family: Montserrat-Medium !important;
+  font-weight: 500 !important;
+  font-size: 12px;
+}
+
+#fields .Concealment, #fields .Wire_concealment_type, #fields .need_kit {
+    display: none;
+}
+
+#fields .Estimated h4 {
+    font-family: Montserrat_Regular;
+    font-size: 18px;
+}
+
+#fields .back {
+    opacity: 40%;
+    background: #353535;
+    box-shadow: 0px 6px 10px 0px #35353529;
+box-shadow: 0px 2px 0px 0px #030303;
+cursor: auto;
+
+
+}
+
+#fields .back img {
+    margin-top: 7px;
+}
+
+
+#fields .add_photos .file_item {
+    position: relative;
+}
+#fields .add_photos .file_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+#fields .add_photos .file_button {
+    display: inline-flex;
+   background: url("../images/add_img.png") no-repeat center;
+   width: 38px;
+   height: 39px;
+   border: none;
+   margin-top: 40px;
+}
+
+#fields .file_preview {
+    display: inline-block;
+    max-width: 200px;
+}
+
+#fields .file_preview img {
+    max-width: 100%;
+}
+
+#fields .add_photos {
+    border-radius: 5px;
+    border: 1px solid #C6DFFB;
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#fields .add_photos .grid1 {
+    display: grid;
+    grid-template-columns: 218px 565px;
+    grid-gap: 0px 20px;
+}
+
+
+#fields   .upload_picture{
+    border: 1px dashed #20C84F4D;
+    height: 140px;
+}
+
+
+#fields  .upload_picture:hover {
+    border: 1px dashed #20C84F;
+
+
+
+}
+
+#fields  .add_photos .add {
+    font-family: Montserrat_Regular;
+    font-size: 26px;
+    line-height: 30px;
+    opacity: 90%;
+    font-weight: 400;
+}
+
+#fields .pos {
+    margin-top: -40px;
+}
+
+#fields .message input { 
+    width: 878px;
+    height: 98px;
+    background: #EFF6FE;
+    border-bottom: 1px solid #9CC6F7;
+    box-shadow: 2px 2px 6px -2px #00000017 inset;
+border-radius: 5px;
+padding-left: 20px;
+font-family: Montserrat_Regular;
+font-size: 14px;
+border: none;
+outline: none;
+}
