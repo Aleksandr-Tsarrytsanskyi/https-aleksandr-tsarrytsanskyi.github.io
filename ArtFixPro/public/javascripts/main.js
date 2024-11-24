@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
   const tabsQuestions = document.querySelectorAll("#handyman a")
   const tab = document.querySelectorAll("#handyman .box");
+  const h1 = document.querySelector("#main .top_slider .h1 h1");
+  const image = document.querySelector("#main .image");
+  
+  const image1 = document.querySelector("main .image1");
  
   function changesTabs() {
     tabsQuestions.forEach(tabs => {

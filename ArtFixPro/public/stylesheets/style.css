@@ -641,3 +641,502 @@ padding-bottom: 30px;
 #footer .privacy li a:hover {
   text-decoration: underline;
 }
+
+#Privacy_Policy h1,  #Privacy_Policy h2, #Privacy_Policy p {
+  color: #242424;
+  font-family: Montserrat_Regular;
+  font-weight: 400;
+}
+
+#Privacy_Policy p {
+  color: #242424;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#Privacy_Policy h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#Privacy_Policy h3 {
+  font-weight: 500;
+  font-family: Montserrat-Medium;
+  font-size: 18px;
+}
+
+#Privacy_Policy h2 {
+  margin-bottom: 10px;
+}
+
+#Privacy_Policy h4 {
+  color: #242424;
+  font-family: Montserrat_Regular;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#Privacy_Policy {
+  max-width: 1205px;
+  margin:  100px auto 300px;
+}
+
+#Privacy_Policy .list {
+  background: url("../images/list_style.png") no-repeat left 20%;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+
+#Privacy_Policy .grid {
+  display: grid;
+  grid-template-columns: 592px 592px;
+  grid-gap: 0px 20px;
+}
+
+#Privacy_Policy .networks {
+  background: url("../images/list_style.png") no-repeat left 35%;
+  padding-left: 15px;
+}
+
+#Privacy_Policy .bg_box {
+  background: #EFF6FE;
+  border: 1px solid #C6DFFB;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#Privacy_Policy .text {
+  font-weight: 600;
+  font-family: Montserrat_Bold;
+  font-size: 18px;
+}
+
+#Privacy_Policy .gird_box {
+  display: grid;
+  grid-template-columns: 592px 388px 184px;
+  grid-gap: 0px 20px;
+}
+
+#terms h1, #terms h2, #terms h3, #terms h4, #terms p {
+  color: #242424;
+  font-family: Montserrat_Regular;
+  font-weight: 400;
+}
+
+#terms h1, #terms h3 {
+  font-size: 40px;
+}
+
+#terms h4 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+#terms p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#terms h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+#terms {
+  max-width: 1205px;
+  margin: 80px auto 200px;
+}
+
+
+#terms .grid {
+  display: grid;
+  grid-template-columns: 378px 796px;
+  grid-gap: 0px 20px;
+  margin-top: 20px;
+}
+
+#terms .none {
+  background: none;
+}
+
+#terms  p {
+  background: url("../images/list_style.png") no-repeat top 20% left ;
+  padding-left: 15px;
+}
+
+#terms .grid_terms {
+  display: grid;
+  grid-template-columns: 388px 286px 286px;
+  grid-gap: 0px 20px;
+}
+
+#booking {
+  max-width: 1205px;
+  margin: auto;
+}
+
+#booking .Booking_Summary img {
+  display: none;
+}
+#booking .booking {
+  display: grid;
+  grid-template-columns: 592px 286px 286px;
+  margin-top: 60px;
+  grid-gap: 0px 20px;
+}
+
+ .flatpickr-innerContainer , .flatpickr-months{
+  background: #EFF6FE;
+  border: 1px solid #C6DFFB
+
+}
+
+.flatpickr-months .flatpickr-month {
+  font-family: Montserrat_Regular;
+  color: #242424;
+}
+
+.flatpickr-day {
+  background-color: #fff !important;
+  border-radius: 2px !important;
+  border: 2px solid #C6DFFB !important;
+  color: #353535 !important;
+  font-size: 14px !important;
+}
+
+
+.flatpickr-day:hover {
+  border: 2px solid #2081F0!important;
+  
+}
+
+span.flatpickr-weekday {
+  color: #353535 !important;
+  font-size: 12px;
+  font-family: Montserrat_Regular;
+  font-weight: 400 !important;
+}
+
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
+  background-color: #2081F0 !important;
+}
+
+.flatpickr-day.flatpickr-disabled, .flatpickr-day.flatpickr-disabled:hover {
+  opacity: 40% !important;
+
+}
+
+.flatpickr-months .flatpickr-prev-month.flatpickr-disabled, .flatpickr-months .flatpickr-next-month.flatpickr-disabled {
+  display: block !important;
+}
+
+.flatpickr-months .flatpickr-prev-month, .flatpickr-months .flatpickr-next-month {
+  fill: rgba(32, 200, 79, 1) !important;
+  background-color: #fff;
+  height: 15px !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 2px 4px -2px rgba(53, 53, 53, 0.24);
+
+
+}
+
+#booking #date {
+  background: rgba(239, 246, 254, 1);
+  border-bottom: 1px solid rgba(156, 198, 247, 1);
+  box-shadow: 2px 2px 6px -2px rgba(0, 0, 0, 0.09) inset;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 287px;
+  height: 70px;
+  padding-left: 20px;
+
+}
+
+
+#booking label {
+  font-family: Montserrat_Regular;
+  font-size: 14px;
+  color: #353535;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+#booking .time {
+  background: rgba(239, 246, 254, 1);
+  border: 1px solid rgba(198, 223, 251, 1);
+  border-radius: 5px;
+  height: 44px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+#booking .time input[type="radio"] {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#booking h1 {
+  font-weight: 400;
+  color: #353535;
+  font-size: 20px;
+  font-family: Montserrat_Regular;
+}
+
+#booking .Booking_Summary .back img {
+  display: block;
+  padding-top: 15px;
+  margin-left: 20px;
+}
+
+#booking .Available {
+  background: rgba(239, 246, 254, 1);
+  border: 1px solid rgba(198, 223, 251, 1);
+  border-radius: 5px;
+  width: 189px;
+  height: 85px;
+  margin-top: 30px;
+}
+
+#booking .Available .number {
+  background-color: #fff;
+  border: 1px solid rgba(198, 223, 251, 1);
+  border-radius: 5px;
+  width: 64px;
+  height: 65px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+#booking .Available  {
+  display: grid;
+  grid-template-columns: 64px 63px;
+}
+
+
+#booking .Available p {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+#booking .Available .number span, #booking .Available p {
+  color: #353535;
+  font-family: Montserrat_Regular;
+  font-size: 14px;
+  line-height: 65px;
+}
+
+#information {
+  max-width: 1205px;
+  margin: 60px auto 200px;
+}
+
+#information input {
+  background: rgba(239, 246, 254, 1);
+  border-bottom: 1px solid rgba(156, 198, 247, 1);
+  box-shadow: 2px 2px 6px -2px rgba(0, 0, 0, 0.09) inset;
+  border-radius: 5px;
+  width: 419px;
+  height: 51px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  float: left;
+  margin-right: 12px;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+#information .grid {
+  display: grid;
+  grid-template-columns: 898px 286px;
+  grid-gap: 0px 20px;
+}
+
+#information .width {
+  width: 268px;
+  height: 51px;
+}
+
+#information .email {
+  width: 873px;
+  height: 51px;
+}
+
+#information h2 {
+  color: #353535;
+  font-family: Montserrat_Regular;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#information .last {
+  margin-right: 0;
+}
+
+#information .notes {
+  width: 873px;
+  height: 101px;
+}
+
+@media screen and (max-width: 940px) {
+  #main .top_slider .h1 h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  #main .top_slider .h1 {
+    width: 600px;
+  }
+
+  header .wrapper {
+    grid-template-columns: 249px 240px 131px;
+    grid-gap: 0px 110px;
+  }
+
+  #service .grid {
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-gap: 0px 8px;
+  }
+
+  #brands img {
+    width: 860px;
+  }
+
+  #brands {
+    margin: auto;
+    width: 904px;
+  }
+
+  #home_service .img {
+    width: 650px;
+    height: 550px;
+    margin: 76px 0px 0px -75px;
+  }
+
+  #home_service {
+    grid-template-columns: 325px 575px;
+  }
+
+  #home_service h3 {
+    font-size: 34px;
+  }
+
+  #home_service p {
+    font-size: 22px;
+  }
+
+  #main .border {
+    width: 895px;
+  }
+
+  #work p {
+    font-size: 34px;
+  }
+
+  #work img {
+    width: 342px;
+  }
+
+  #work {
+    grid-template-columns: 340px 429px;
+  }
+
+  #main .border {
+    height: 342px;
+  }
+
+  #our_service {
+    grid-template-columns: 452px 452px;
+    margin-left: 8px;
+  }
+
+  #our_service .cell:nth-child(2) {
+    background: url("../images/media/image3.png") no-repeat center !important;
+    height: 360px;
+    width: 470px;
+  }
+
+  #our_service .cell:nth-child(3) {
+    background: url("../images/media/image4.png") no-repeat center !important
+  }
+  #our_service .cell:nth-child(4) {
+    background: url("../images/media/image5.png") no-repeat center !important
+  }
+  #our_service .cell:nth-child(5) {
+    background: url("../images/media/image6.png") no-repeat center !important
+  }
+
+  #questions input[type="text"],   #questions input[type="email"] {
+    width: 176px;
+  }
+
+  #questions input[type="phone"] {
+    width: 240px;
+  }
+
+  #questions {
+    width: 940px;
+  }
+
+  #questions h3 {
+    font-size: 34px;
+    margin-left: 8px;
+  }
+
+  #questions p {
+    font-size: 22px;
+    margin-left: 8px;
+  }
+
+  #questions .first {
+    margin-left: 8px;
+  }
+
+  #questions .message {
+    width: 885px !important;
+    margin-left: 8px;
+  }
+
+  #questions .position1 {
+    width: 455px;
+    margin: auto;
+  }
+
+  #questions  input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+  }
+
+  #questions label {
+    line-height: 17px;
+    display: block;
+    margin-top: 20px;
+  }
+
+  #questions input[type="submit"] {
+    width: 200px;
+    margin-right: 26px !important;
+  }
+
+  #service {
+    width: 940px;
+  }
+
+  header {
+    width: 940px;
+  }
+
+  footer .width {
+    width: 940px;
+  }
+
+  #main .bg_our_service .width {
+    width: 940px;
+  }
+}
