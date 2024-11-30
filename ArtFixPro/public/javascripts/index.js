@@ -9,7 +9,19 @@ function changeH1() {
         h1.innerHTML = "Transforming Spaces with<br> Artistry and Precision in <br>New York City"
         image.src = "images/media/media_img.png";
         image1.src = "images/media/imag2.png";
+        image.style.height = "800px"
+        image1.style.height = "800px"
         label.innerHTML = "By clicking “Send” you agree to receive communication emails <br>or calls from us in accordance with our Privacy Policy"
+    }
+
+    if( window.innerWidth <= 620) {
+        image.src = "images/media/img7.png";
+        image1.src = "images/media/img8.png";
+    }
+
+    if( window.innerWidth <= 550) {
+        image.src = "images/media/img13.png";
+        image1.src = "images/media/img14.png";
     }
   }
   changeH1();

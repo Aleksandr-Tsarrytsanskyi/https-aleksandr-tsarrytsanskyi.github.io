@@ -49,14 +49,18 @@ document.addEventListener("DOMContentLoaded", function() {
         },
       });
 
-      resizableSwiper("(max-width: 3500px)", ".slider2", {
+      resizableSwiper("(max-width: 480px)", ".slider2", {
         loop: true,
         spaceBetween: 1,
-        slidesPerView: 5,
+        slidesPerView: 1,
         freeMode: true,
         // autoplay: {
         //     delay: 5000,
         //   },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
         breakpoints: {
           1200: {
             spaceBetween: 20,

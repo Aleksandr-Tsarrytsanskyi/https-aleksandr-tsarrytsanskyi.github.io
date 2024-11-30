@@ -994,8 +994,8 @@ span.flatpickr-weekday {
   }
 
   header .wrapper {
-    grid-template-columns: 280px 240px 131px;
-    grid-gap: 0px 110px;
+    grid-template-columns: 280px 240px 0px;
+    grid-gap: 0px 50px;
   }
 
   #service .grid {
@@ -1013,21 +1013,25 @@ span.flatpickr-weekday {
   }
 
   #home_service .img {
-    width: 650px;
-    height: 550px !important;
-    margin: 29px 0px 0px -141px !important;
+    display: none;
   }
 
   #home_service {
-    grid-template-columns: 325px 575px;
+    grid-template-columns: 324px  !important;
   }
 
   #home_service h3 {
-    font-size: 34px;
+    font-size: 28px;
+    text-align:  center;
+  }
+
+  div.eapps-widget {
+    margin-right: 0px;
   }
 
   #home_service p {
     font-size: 22px;
+    text-align: center;
   }
 
   #main .border {
@@ -1035,25 +1039,25 @@ span.flatpickr-weekday {
   }
 
   #work p {
-    font-size: 34px;
+    font-size: 28px;
+    text-align: center;
   }
 
   #work img {
-    width: 342px;
+    width: 310px;
+    margin: 0 !important;
   }
 
   #work {
-    grid-template-columns: 340px 429px;
+    grid-template-columns: 310px !important;
   }
 
   #main .border {
-    height: 342px;
+    max-width: 310px;
+    border: none;
+    height: 320px;
   }
 
-  #our_service {
-    grid-template-columns: 452px 452px;
-    margin-left: 8px;
-  }
 
   #our_service .cell:nth-child(2) {
     background: url("../images/media/image3.png") no-repeat center !important;
@@ -1118,7 +1122,7 @@ span.flatpickr-weekday {
   }
 
   header {
-    width: 940px;
+    max-width: 500px;
   }
 
   footer .width {
@@ -1126,7 +1130,7 @@ span.flatpickr-weekday {
   }
 
   #main .bg_our_service .width {
-    width: 940px;
+    max-width:  940px;
   }
 }
 
@@ -1146,6 +1150,7 @@ span.flatpickr-weekday {
 
   #main .top_slider .h1 {
     width: 850px;
+    margin-top: 120px;
   }
 
   header .wrapper ul {
@@ -1175,24 +1180,53 @@ span.flatpickr-weekday {
   }
 
   #main .bg_our_service {
-    width: 100%;
+   background: url("../images/media/img20.png") no-repeat, url("../images/media/img21.png") no-repeat;
+    height: 1700px;
   }
 
   #our_service .cell:nth-child(2) {
-    width: 400px;
+    background: url("../images/media/img9.png") !important;
+    width: 329px;
+    height: 330px;
   }
 
-  #our_service .cell:nth-child(3), #our_service .cell:nth-child(4), #our_service .cell:nth-child(5) {
-    width: 400px;
+
+  #our_service .cell:nth-child(3) {
+    background: url("../images/media/img10.png") !important;
+    width: 329px;
+    height: 330px;
   }
+
+  #our_service .cell:nth-child(4) {
+    background: url("../images/media/img11.png") !important;
+    width: 329px;
+    height: 330px;
+  }
+
+  #our_service .cell:nth-child(5) {
+    background: url("../images/media/img12.png") !important;
+    width: 329px;
+    height: 330px;
+  }
+
+
 
   #our_service figure {
-    width: 372px;
+    width: 300px;
   }
 
   #our_service {
-    grid-template-columns: 400px 400px !important;
-    justify-content: center
+    grid-template-columns: 329px;
+    justify-content: center;
+  }
+
+  #main .bg_our_service .width {
+    max-width: 329px;
+  }
+
+  #our_service h3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 
   #questions input[type="text"],   #questions input[type="email"] {
@@ -1226,30 +1260,52 @@ span.flatpickr-weekday {
   }
 }
 
-@media screen and (max-width: 1280px) {
-  #our_service {
-    grid-template-columns: 580px 580px;
-  }
-}
 
-@media screen and (max-width: 720px) {
+
+@media screen and (max-width: 870px) {
  
 
   header .wrapper {
-    grid-template-columns: 280px;
+    grid-template-columns: 245px;
     justify-items: normal;
-    margin-top: -30px;
+    margin-top: 100px;
+    grid-gap: 0;
+  }
+
+  header .wrapper ul {
+    position: absolute;
+    margin-top: 160px !important;
+    margin-left: 60px;
+  }
+
+  header .wrapper ul li {
+    margin-right: 0;
+    margin-bottom: 20px;
+    float: none;
   }
 
   header {
-    width: 750px;
+    max-width: 218px;
     margin: auto;
+  }
+
+  #main .top_slider .h1 {
+    margin-top: 200px;
+  }
+
+  .top_slider .pagination {
+    margin: -88px auto;
+  }
+
+  #main .arrow {
+    margin-top: -355px;
   }
 }
 
 @media screen and (max-width: 620px) {
   #main .top_slider .h1 {
     width: 310px !important;
+    margin-top: 220px;
   }
 
   #main .top_slider .h1 h1 {
@@ -1273,5 +1329,56 @@ span.flatpickr-weekday {
 
   #service p {
     font-size: 18px;
+  }
+  .slider2 {
+    display: block !important;
+    padding-top: 0px !important;
+    width: 210px;
+    margin-top: 20px;
+    height: 150px;
+  }
+
+  .slider2 img {
+    max-width: 210px !important;
+  }
+
+  #brands .mar {
+    display: none;
+  }
+
+  #brands {
+    width: 210px !important;
+    background: none;
+    padding-top: 30px;
+  }
+
+  
+}
+
+@media screen and (max-width: 390px) {
+  .zip_code input[type="text"] {
+    width: 280px;
+  }
+
+  .zip_code .button {
+    width: 300px;
+  }
+
+  #home_service {
+    grid-template-columns: 300px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #work img {
+    width: 300px;
+  }
+
+  #work {
+    grid-template-columns: 300px !important;
+  }
+
+  #main .border {
+    max-width: 300px;
   }
 }
