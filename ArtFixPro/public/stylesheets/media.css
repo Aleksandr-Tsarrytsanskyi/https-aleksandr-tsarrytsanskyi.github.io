@@ -1,0 +1,325 @@
+@media screen and (max-width: 1600px) {
+    #tv_mounting .cell:nth-child(2) img {
+        max-width:  568px;
+    }
+
+    #page2 {
+        max-width: 1070px;
+    }
+
+    #tv_mounting .cell:nth-child(1) {
+        padding-left: 10px;
+    }
+
+    header {
+        max-width: 800px;
+    }
+
+    #pagination .width {
+        max-width: 1070px;
+        padding-left: 10px;
+    }   
+    
+    header .wrapper ul {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #tv_mounting h1 {
+        font-size: 34px;
+        font-weight: 400;
+    }
+
+    #includes {
+        grid-template-columns: 197px 197px 197px 197px 197px !important;
+    }
+
+    #bg_warning {
+        max-width:  1070px;
+        width: fit-content;
+    }
+
+    #warning {
+        grid-template-columns: 52px 965px;
+    }
+
+    #tv_installation .tv_installation {
+        grid-template-columns: 1070px;
+    }
+
+    #tv_installation .bg_Estimated {
+        background-color: #fff;
+        width: 270px;
+        position: absolute;
+        padding: 20px;
+        margin-left: 500px;
+        margin-top: 80px !important;
+        z-index: 200;
+        margin-top: 2px;
+        height: 188px;
+        float: right;
+    }
+
+    #tv_installation .Estimated h4 {
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 9px 0 0;
+    }
+
+    .Booking_Summary {
+        width: 447px;
+        float: left;
+        padding-right: 605px;
+        margin-top: 60px;
+    }
+
+    #tv_installation  .full_price {
+        font-family: Montserrat_Regular;
+        color: #353535;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #tv_installation .btn {
+        background-color: #20C84F;
+        box-shadow: 0px 6px 10px 0px #35353529;
+        box-shadow: 0px 2px 0px 0px #008B12;    
+        width: 246px;
+        height: 44px;
+        border-radius: 3px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #tv_installation .btn button {
+        background: url("../images/active_aarow.png") no-repeat right 55%;
+        border: none;
+        color: #fff;
+        text-shadow: 1px 1px 2px #0000004D;
+        font-size: 15px;
+        font-family: Montserrat_Bold;
+        font-weight: 700;
+        line-height: 42px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+
+    #tv_installation .btn:hover {
+        background-color: #2081F0;
+
+        box-shadow: 0px 2px 0px 0px #008B12;
+        
+        box-shadow: 0px 2px 0px 0px #185498;
+    }
+
+    #tv_installation .details {
+        grid-gap: 0px 195px;
+    }
+
+    #tv_installation .details input[type="text"] {
+        width: 470px;
+    }
+
+    #tv_mounting {
+        grid-template-columns: 491px 569px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header .wrapper ul {
+        margin-left: 10px;
+    }
+
+    #tv_mounting {
+        grid-auto-flow: unset;
+        grid-template-columns: 569px;
+        justify-content: center;
+    }
+
+    #tv_installation .details {
+        grid-template-columns: 406px;
+    }
+
+    #tv_installation .bg_Estimated {
+       
+        margin: 15px auto 10px 28px !important; 
+    }
+
+    #tv_installation .Booking_Summary {
+        width: 385px;
+        padding-right: 0px;
+        height: 650px;
+    }
+
+    #bg_warning {
+        max-width: 405px;
+        margin: auto;
+        height: 220px;
+    }
+
+    #tv_installation .details input[type="text"] {
+        width: 387px;
+    }
+
+    #tv_installation .details p {
+        margin-top: 30px;
+    }
+
+    #warning {
+        grid-template-columns: 405px;
+    }
+
+    #warning .cell:nth-child(2) {
+        width: 290px;
+    }
+
+    #tv_installation .tv_installation {
+        grid-template-columns: 406px;
+        margin: auto;
+        max-width: 406px;
+    }
+
+    #tv_installation .size, #tv_installation .bracket, #tv_installation .type {
+        grid-template-columns: 155px 155px;
+        height: 455px;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    #tv_installation .size p, #tv_installation .bracket p, #tv_installation .type p {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #warning p {
+        font-size: 14px;
+    }
+
+    #tv_mounting .cell:nth-child(2) {
+        grid-row-start: 1;
+    }
+
+    #tv_mounting .cell:nth-child(1) {
+        text-align: center;
+    }
+
+    #includes {
+        grid-template-columns: 197px 197px !important;
+        justify-content: center;
+        grid-gap: 20px 0px;
+    }
+
+    #includes h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .zip_code .button {
+        margin: 20px auto;
+    }
+
+    #page2 {
+        max-width: 572px;
+    }
+
+    #tv_mounting div.eapps-widget {
+       margin: 60px auto;
+        width: 300px;
+    }
+
+    #tv_mounting .eapps-widget-toolbar {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 1030px) {
+    header .wrapper ul {
+        margin-left: 10px !important;
+    }
+} 
+
+@media screen and (max-width: 870px) {
+#header {
+    height: 500px;
+}
+
+header .wrapper ul {
+    margin-left: 60px !important;
+}
+
+header {
+    max-width: 245px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    #tv_mounting .cell:nth-child(2) img {
+        max-width: 320px;
+        margin-top: -104px;
+    }
+
+    #tv_mounting {
+        grid-template-columns: 316px;
+    }
+
+    #page2 {
+        max-width: 408px;
+    }
+
+    #tv_mounting h1 {
+        font-size: 33px;
+    }
+
+    #tv_mounting p {
+        font-size: 14px;
+    }
+
+    #tv_mounting .cell:nth-child(1) {
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    #includes {
+        grid-template-columns: 197px !important;
+        margin-top: 0px !important;
+    }
+
+    #includes h2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #bg_warning {
+        max-width: 310px;
+    }
+
+    #warning {
+        padding-left: 10px;
+        grid-template-columns: 300px;
+    }
+
+    #tv_installation .size, #tv_installation .bracket, #tv_installation .type {
+        grid-template-columns: 155px;
+        height: 770px;
+    }
+
+    #tv_installation .size p, #tv_installation .bracket p, #tv_installation .type p {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #tv_installation .tv_installation {
+        grid-template-columns: 310px;
+        max-width: 310px;
+    }
+
+    #tv_installation .quantity label {
+        margin-right: 29px;
+    }
+
+    #tv_installation .quantity {
+        padding-left: 10px;
+    }
+}

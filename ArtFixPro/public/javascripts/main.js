@@ -1,11 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
   const tabsQuestions = document.querySelectorAll("#handyman a")
   const tab = document.querySelectorAll("#handyman .box");
-  const h1 = document.querySelector("#main .top_slider .h1 h1");
-  const image = document.querySelector("#main .image");
-  
-  const image1 = document.querySelector("main .image1");
- 
+  const button = document.querySelector(".Booking_Summary .bg_Estimated");
+  const booking = document.querySelector(".Booking_Summary");
+    console.log(booking);
+    
+  function movingElements() {
+    if( window.innerWidth <= 1600) {
+    booking.after(button)
+    }
+    else {
+        booking.append(button)
+    }
+
+    if( window.innerWidth <= 1100) {
+      booking.append(button)
+    }
+  }
   function changesTabs() {
     tabsQuestions.forEach(tabs => {
         tabs.addEventListener("click", function(event) {
@@ -22,5 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     })
   }
+  movingElements();
   changesTabs(); 
  })

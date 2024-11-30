@@ -363,20 +363,23 @@ box-shadow: 0px 2px 0px 0px #185498;
 }
 
 .Booking_Summary .back {
-    background-color: #20C84F;
-    box-shadow: 0px 2px 0px 0px #008B12;
+    background-color: #353535;
+    box-shadow: 0px 6px 10px 0px rgba(53, 53, 53, 0.16);
+box-shadow: 0px 2px 0px 0px rgba(3, 3, 3, 1);
+
     width: 50px;
     height: 44px;
     text-align: center;
     margin-top: 20px;
+    opacity: 40%;
     border-radius: 3px;
-    cursor: pointer;
+    cursor: auto;
 }
 
-.Booking_Summary .back:hover {
+/* .Booking_Summary .back:hover {
     background-color: #2081F0;
     box-shadow: 0px 2px 0px 0px #2081F0;
-}
+} */
 
 .Booking_Summary .back img {
     margin-top: 16px;
