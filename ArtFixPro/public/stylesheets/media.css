@@ -146,6 +146,10 @@
         margin: 15px auto 10px 28px !important; 
     }
 
+    #tv_mounting .eapps-widget-toolbar {
+        display: none !important;
+    }
+
     #tv_installation .Booking_Summary {
         width: 385px;
         padding-right: 0px;
@@ -228,9 +232,6 @@
         width: 300px;
     }
 
-    #tv_mounting .eapps-widget-toolbar {
-        display: block !important;
-    }
 }
 @media screen and (max-width: 1030px) {
     header .wrapper ul {
@@ -291,6 +292,38 @@ header {
         grid-column-end: 2;
     }
 
+    #tv_installation .details input[type="text"] {
+        width: 290px;
+    }
+
+    #tv_installation .details {
+        grid-template-columns: 310px;
+    }
+
+    #tv_installation .Booking_Summary {
+        width: 290px;
+    }
+
+    #tv_installation .bg_Estimated {
+        margin: 15px auto 10px -20px !important;
+    }
+
+    #tv_installation .need, #tv_installation .wire, #tv_installation .kite {
+        grid-template-columns: 155px !important;
+        justify-content: center;
+        padding-left: 0;
+        height: 550px;
+    }
+
+    #tv_installation .need p, #tv_installation .wire p, #tv_installation .kite p {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #warning {
+        grid-template-columns: 300px !important;
+    }
+
     #bg_warning {
         max-width: 310px;
     }
@@ -321,5 +354,11 @@ header {
 
     #tv_installation .quantity {
         padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    #warning {
+        grid-template-columns: 375px;
     }
 }

@@ -90,9 +90,7 @@ header {
     margin-left: -80px;
 }
 
-#tv_mounting  .eapps-widget-toolbar {
-    display: none;
-}
+
 
 #includes {
     display: grid;
