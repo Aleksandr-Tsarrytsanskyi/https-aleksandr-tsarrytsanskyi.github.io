@@ -1,6 +1,7 @@
 const h1 = document.querySelector("#main .top_slider .h1 h1");
 const image = document.querySelector("#main .image");
 const label = document.querySelector("#questions label");
+const text = document.querySelector("#questions .text");
 
 const image1 = document.querySelector("#main .imag1");
 
@@ -22,6 +23,15 @@ function changeH1() {
     if( window.innerWidth <= 550) {
         image.src = "images/media/img13.png";
         image1.src = "images/media/img14.png";
+    }
+
+    if( window.innerWidth <= 941) {
+         label.innerHTML = "By clicking “Send” you agree to receive <br>communication emails or calls from us in <br>accordance with our Privacy Policy"
+    }
+
+    if( window.innerWidth <= 941) {
+        text.innerHTML = "<br>We'd be happy to assist you!"
+        text.style.position ="static"
     }
   }
   changeH1();

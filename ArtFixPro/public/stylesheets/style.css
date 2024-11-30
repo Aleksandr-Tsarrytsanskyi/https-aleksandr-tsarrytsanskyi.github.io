@@ -713,6 +713,10 @@ padding-bottom: 30px;
   font-size: 18px;
 }
 
+.eapps-widget-toolbar {
+  display: none !important;
+}
+
 #Privacy_Policy .gird_box {
   display: grid;
   grid-template-columns: 592px 388px 184px;
@@ -1076,11 +1080,6 @@ span.flatpickr-weekday {
   }
 
 
-
-  #questions {
-    width: 940px;
-  }
-
   #questions h3 {
     font-size: 34px;
     margin-left: 8px;
@@ -1100,10 +1099,6 @@ span.flatpickr-weekday {
     margin-left: 8px;
   }
 
-  #questions .position1 {
-    width: 455px;
-    margin: auto;
-  }
 
 
   #questions label {
@@ -1213,6 +1208,7 @@ span.flatpickr-weekday {
 
   #our_service figure {
     width: 300px;
+    height: 154px;
   }
 
   #our_service {
@@ -1380,5 +1376,94 @@ span.flatpickr-weekday {
 
   #main .border {
     max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 941px) {
+  #questions input {
+    float: none;
+    width: 300px !important;
+    margin: auto;
+    margin-right: 0px !important;
+    margin-bottom: 20px;
+  }
+
+  #questions .questions {
+   max-width: 330px;
+   margin: auto;
+  }
+
+  #questions .first {
+    margin: 0 0 20px;
+  }
+
+  #questions .message {
+    width: 300px !important;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  #questions .position1 {
+    width: 320px;
+    clear: both;
+    height: 150px;
+  }
+
+  #questions input[type="checkbox"] {
+    float: left;
+    position: absolute;
+    margin: 21px 10px 10px -139px;
+  }
+
+  #questions label {
+    float: left;
+    margin-left: 30px;
+  }
+
+  #questions input[type="submit"] {
+    position: absolute;
+    width: 300px !important;
+    margin-bottom: 70px !important;
+  }
+
+  #questions {
+    max-width: 320px;
+    margin: 100px auto;
+   padding-bottom: 80px;
+  }
+
+  #questions .text {
+    clear: both;
+  }
+
+  #questions p {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #footer {
+    grid-template-columns: 158px;
+  }
+
+  footer .width  {
+    width: fit-content;
+  max-width: 200px;
+  margin: auto;
+  }
+
+  #footer p {
+    margin-top: 10px;
+  }
+
+  #footer .menu {
+    margin-top: 10px;
+  }
+
+  #footer .privacy {
+    margin-top: 10px;
+    margin-right: 40px;
   }
 }
