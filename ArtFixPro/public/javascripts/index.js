@@ -5,7 +5,7 @@ const label = document.querySelector("#questions label");
 const image1 = document.querySelector("#main .imag1");
 
 function changeH1() {
-    if( window.innerWidth <= 940) {
+    if( window.innerWidth <= 1240) {
         h1.innerHTML = "Transforming Spaces with<br> Artistry and Precision in <br>New York City"
         image.src = "images/media/media_img.png";
         image1.src = "images/media/imag2.png";
