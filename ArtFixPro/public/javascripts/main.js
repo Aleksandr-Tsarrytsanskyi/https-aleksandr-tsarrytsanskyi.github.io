@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const tabsQuestions = document.querySelectorAll("#handyman a")
   const tab = document.querySelectorAll("#handyman .box");
-  const button = document.querySelector(".Booking_Summary .bg_Estimated");
+  const button = document.querySelector(" .bg_Estimated");
   const booking = document.querySelector(".Booking_Summary");
     console.log(booking);
     
