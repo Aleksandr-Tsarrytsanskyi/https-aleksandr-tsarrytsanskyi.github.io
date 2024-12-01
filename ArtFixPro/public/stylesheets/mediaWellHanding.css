@@ -223,4 +223,12 @@
     #Wallhanging .eapps-widget-toolbar {
         display: none;
     }
+
+    .needs .col {
+        width: fit-content;
+    }
+
+    .needs .card {
+        grid-gap: 0px !important;
+    }
 }
