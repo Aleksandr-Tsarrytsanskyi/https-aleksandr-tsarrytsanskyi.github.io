@@ -78,16 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
         
     }
 
-   
-
-
-    function validateInstallation() {
-            radioValidate.forEach(radio => {
-                if(radio.checked == false) {
-                    
-                } 
-            })
-    }
 
     canculate();
 })
