@@ -48,24 +48,20 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
-    let number = +full_price.innerHTML;
+    // let number = +full_price.innerHTML;
     let result;
     function addition(product1) {
-  
-        
-        result =  number = product1
-        full_price.innerHTML = result
-        // let prices = []
-        // prices.push(product1);
-       return result
+        result = product1
+        // result =  number = product1
+        // full_price.innerHTML = result
         
     }
 
     function getproduct(product2) {
         let result2 = 0;
     
-        result2 = number = product2
-        full_price.innerHTML = result2
+        // result2 = number = product2
+        // full_price.innerHTML = result2
        
         
         // let prices = []
