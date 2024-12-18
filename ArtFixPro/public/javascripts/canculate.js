@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     const full_price = document.querySelector(".Estimated .full_price");
+    const button = document.querySelector("#project .btn");
+    const radioValidate = document.querySelectorAll("#project .installation input") 
+    let result;
     function canculate() {
         const product = document.querySelectorAll(".Booking_Summary img");
         const radio = document.querySelectorAll("#project input[type='radio']");
@@ -38,9 +41,12 @@ document.addEventListener("DOMContentLoaded", function() {
         radio1.forEach(radio => {
             radio.addEventListener("click", function(e) {
                 let price = +e.target.nextElementSibling.lastElementChild.innerHTML
-                let result2 = 0
                getproduct(price);
             })
+
+            if(radio.checked == true) {
+
+            }
             
         })
         
@@ -49,9 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     // let number = +full_price.innerHTML;
-    let result;
+    
     function addition(product1) {
         result = product1
+        console.log(result);
         // result =  number = product1
         // full_price.innerHTML = result
         
@@ -59,7 +66,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function getproduct(product2) {
         let result2 = 0;
-    
+        result += product2;
+        console.log(result);
+        
         // result2 = number = product2
         // full_price.innerHTML = result2
        
@@ -68,5 +77,17 @@ document.addEventListener("DOMContentLoaded", function() {
         // prices.push(product2);
         
     }
+
+   
+
+
+    function validateInstallation() {
+            radioValidate.forEach(radio => {
+                if(radio.checked == false) {
+                    
+                } 
+            })
+    }
+
     canculate();
 })
