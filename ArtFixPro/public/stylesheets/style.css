@@ -4,6 +4,29 @@ body {
   padding: 0;
 }
 
+._error {
+  border-bottom: 1px solid #EB2A2A !important;
+  cursor: pointer;
+  background: url("../images/error_checkmark.png") no-repeat right !important;
+}
+
+.zip_code_arrow {
+  color: #fff !important;
+  font-weight: 800 !important;
+  cursor: pointer;
+  background: url("../images/active_aarow.png") no-repeat right !important;
+}
+
+.zip_code_bg {
+  opacity: 100% !important;
+  background: #20C84F !important;
+}
+
+.error_zip_code {
+  color: #EB2A2A;
+  font-size: 12px;
+}
+
 header {
   max-width: 1205px;
   margin: auto;
@@ -14,6 +37,47 @@ header {
 
 .top_slider {
   margin-top: -233px;
+}
+
+#questions .img {
+  width: 22px;
+  float: left;
+  display: none;
+  margin: 10px 0px 0px -49px;
+}
+
+.chekboxError {
+  box-shadow: 0px 0px 10px red !important;
+}
+
+#questions .last {
+  margin: 74px 0px 0px -50px;
+}
+
+#questions .phone {
+  margin: 12px 0px 0px -31px;
+} 
+
+#errorzip {
+  display: none;
+}
+
+.errorzipshows {
+  display: block !important;
+  color: red;
+  font-size: 12px;
+}
+
+._req_imgerrors {
+  background: url("../images/checkmark.png") no-repeat right !important;
+}
+
+.input_show {
+  border-bottom: 1px solid #20C84F !important;
+}
+
+._req_show {
+  display: block !important;
 }
 
 @font-face {

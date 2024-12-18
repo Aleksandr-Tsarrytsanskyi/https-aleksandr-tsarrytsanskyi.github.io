@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" />
-
-    <script type="module" src="./javascripts/main.js"></script>
+   
     <script type="module" src="./javascripts/index.js"></script>
     <script type="module" src="./javascripts/slider.js"></script>
+    <script type="module" src="./javascripts/validate.js"></script>
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
     <meta name="description" content="ArtFixPro" />
     <meta name="keywords" content="ArtFixPro" />
@@ -540,6 +540,7 @@
                   <label>ZIP code</label>
                   <br>
                   <input type="text" name="code" placeholder="ZIP Code" />
+                  <span id="errorzip">Unfortunately, we do not currently offer services in this area</span>
                 </div>
                 <div class="button">
                   <button disabled>PRELIMENARY ASSESSMENT</button>
@@ -622,23 +623,38 @@
             Fill out this form, and our team will reply shortly.</p>
           <form action="#" method="post" class="questions">
             <div>
-              <input type="text" name="First name*" placeholder="First name*" class="first">
+              <input type="text" name="firstname" placeholder="First name*" class="first _req">
+              <div class="img">
+                <img src="./images/checkmark.png" alt="">
+              </div>
             </div>
             <div>
-              <input type="text" name="Last name*" placeholder="Last name*">
+              <input type="text" name="lastname*" placeholder="Last name*" class="_req">
+              <div class="img">
+                <img src="./images/checkmark.png" alt="">
+              </div>
             </div>
             <div>
-              <input type="email" name="Email *" placeholder="Email *">
+              <input type="email" name="email" placeholder="Email *" class="_req email">
+              <div class="img">
+                <img src="./images/checkmark.png" alt="">
+              </div>
             </div>
             <div>
-              <input type="phone" name="Phone number*" placeholder="Phone number*">
+              <input type="phone" name="phone*" placeholder="Phone number*" class="_req">
+              <div class="phone img">
+                <img src="./images/checkmark.png" alt="">
+              </div>
             </div>
             <div class="clear"></div>
             <div>
-             <input type="text" name="message" placeholder="Questions or Comments *" class="message">
+             <input type="text" name="message" placeholder="Questions or Comments *" class="message _req">
+             <div class="img last">
+              <img src="./images/checkmark.png" alt="">
+             </div>
             </div>
             <div class="position1">
-              <input type="checkbox">
+              <input type="checkbox" name="checkbox">
               <label>By clicking “Send” you agree to receive communication emails or calls from us in accordance with our Privacy Policy</label>
             </div>
             <div>

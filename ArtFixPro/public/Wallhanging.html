@@ -12,6 +12,7 @@
       type="text/css" />
     <script type="module" src="./javascripts/main.js"></script>
     <script type="module" src="./javascripts/remove.js"></script>
+    <script type="module" src="./javascripts/canculate.js"></script>
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
     <meta name="description" content="ArtFixPro" />
     <meta name="keywords" content="ArtFixPro" />
@@ -393,7 +394,7 @@
                           <h4>Estimated</h4>
                         </div>
                         <div class="cell">
-                          <span class="full_price">$489.00</span>
+                          <p>$<span class="full_price">00</span>.00</p>
                         </div>
                       </div>
                       <div class="btn">
@@ -407,6 +408,34 @@
             </div>
         </div>
     </div>
+    <form action="#" method="post" id="getradio">
+      <div>
+        <input type="radio" name="cash">
+        <label><span>product1</span> <span class="bro">85</span></label>
+      </div>
+      <div>
+        <input type="radio"  name="cash">
+        <label><span>product2</span> <span class="bro">75</span></label>
+      </div>
+      <div>
+        <input type="radio"  name="cash">
+        <label><span>product3</span> <span class="bro">95</span></label>
+      </div>
+    </form>
+    <form action="#" method="post" id="getradio1">
+      <div>
+        <input type="radio" name="product">
+        <label>product <span class="bro">85</span></label>
+      </div>
+      <div>
+        <input type="radio"  name="product">
+        <label><span>product</span> <span id="bro">75</span></label>
+      </div>
+      <div>
+        <input type="radio"  name="product">
+        <label>product <span class="bro">95</span></label>
+      </div>
+    </form>
       <footer>
         <div class="width">
           <div id="footer">
